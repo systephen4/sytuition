@@ -1,0 +1,708 @@
+ <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COSMO TUTORING.</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <i class="fa fa-bars" aria-hidden="true"></i> FOR MENU ICON
+  
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    /> for icons such as tiktok, menu etc...
+
+Say goodbye to boring lessons and empty promises! CosmoTuition offers fun and effective learning to help you achieve academic excellence. Our scientifically proven strategies ensure efficient recall, retention, and application of knowledge. We've mastered the art of learning through trial, error, and struggle, so you don't have to. With our expertise and flawless academic record, learning is no longer a chore - it's a fun and engaging experience! Join CosmoTuition today and unleash your full potential!
+
+Tired of empty promises and boring lessons? Want fun and effective
+          lessons to achieve academic excellence? Look no further, CosmoTuition
+          to the rescue! Our rigorous journey towards academic excellence was
+          never easy for us! we've gone through the trial, errors and struggles
+          so you don't have to! This has allowed us to master the art of
+          learning with our scientifically proven learning strategies, to enable
+          your child or yourself to efficiently recall, retain, and apply
+          knowledge. With our level of expertise, and our flawless academic
+          streak, you can rest assured our services are exclusively designed to
+          make learning fun and effective. With us, learning is no longer a
+          chore!
+
+          Our aim is to provide a wide range of subjects and qualifications, priorising inclusivity, create an environment where every child can thrive, regardless of their background or abilities. These include:
+
+
+          header.sticky{
+    padding: 5px 100px;
+    background: #fff;
+}
+
+
+.logo{
+    left: 0;
+    top: 0;
+    position: relative;
+}
+.logo img{
+    height: 70px;
+    width: auto;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 90%;
+    z-index: 1000000;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px 15px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px; 
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 100000;
+    text-align: right;
+}
+header ul{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+header.sticky{
+    padding: 5px 90px;
+    background: #fff;
+}
+
+nav{
+    display: flex;
+    padding: 2% 3%;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000000;
+    align iterms: center;
+
+    We understand it is vital to be dynamic
+            and charismatic to successfully tutor young students, due to their
+            short attention span. and have therefore adopted our teaching style
+            to deliver fun and engaging sessions to ensure your child's
+            interactive sessions bear sweet results. With personalized support,
+            tailored to your child's needs, they will have the skills and
+            confidence to ace their exams.
+
+            <strong>KS1</strong> and <strong> KS2</strong> content. <br />
+
+footer
+
+<footer>
+      <div class="main-content">
+          <h2>Socials</h2>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit
+              debitis, accusantium necessitatibus dolorum id exercitationem
+              minus commodi nihil cumque ipsam.
+            </p>
+            <div class="social">
+              <a href="#"><span class="fab fa-facebook-f"></span></a>
+              <a href="#"><span class="fab fa-twitter"></span></a>
+              <a href="#"><span class="fab fa-instagram"></span></a>
+              <a href="#"><span class="fab fa-youtube"></span></a>
+              <a href="#"><span class="fab fa-linkedin"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="center box">
+          <h2>Contact details</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text">London & Milton Keynes, UK.</span>
+            </div>
+            <div class="phone">
+              <span class="fas fa-phone-alt"></span>
+              <span class="text">+44 7549 825440</span>
+            </div>
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">mensah1stephen@gmail.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="right box">
+          <h2>Contact Us</h2>
+          <div class="content">
+            <form action="#">
+              <div class="email">
+                <div class="text">Email *</div>
+                <input type="email" required />
+              </div>
+              <div class="msg">
+                <div class="text">Message *</div>
+                <textarea cols="25" rows="2" required></textarea>
+              </div>
+              <div class="btn">
+                <button type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    css
+    footer{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background: #675cff;
+}
+.main-content{
+    display: flex;
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.box .content{
+    margin: 20px 0 0 0;
+}
+.left .content p{
+    text-align: justify;
+}
+.left .content .social{
+    margin: 20px 0 0 0;
+}
+.left .content .social a{
+    padding: 0 2px;
+}
+.left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: black;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.left .content .social a span:hover{
+    background: #f12020;
+
+
+}
+
+.text-box p{
+    
+    margin: 5px 0 -20px;
+    font-size: 18px;
+    color: black;
+    text-align: left;
+}
+
+<p>
+            We've mastered the art of learning through trial, error, and
+            struggle, so you don't have to! As a result, we have formulated a
+            scientifically proven recipe for an optimal learning environment,
+            where students can thrive and excel beyond their target goals.
+          </p>
+
+          <!---- <div class="rara"> 
+            <a href="">Explore</a>
+          </div>
+        </div> --->
+        <!----<div class="text-box2">
+          <ul>
+            <li><a href="">&#9989; Maths</a></li>
+            <li><a href="">&#9989; Further Maths</a></li>
+            <li><a href="">&#9989; English Language</a></li>
+            <li><a href="">&#9989; English Literature</a></li>
+            <li><a href="">&#9989; All Sciences</a></li>
+            <li><a href="">&#9989; Secondary school Entrance exams</a></li>
+            <li><a href="">&#9989; University admission tests</a></li>
+          </ul>
+        </div> --->
+
+<!--------old Testimonials--------->
+      <!-- <div class="row">
+        <div class="testimonials-col">
+          <img src="image/kwaku.jpg" alt="" />
+          <div>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              quas maiores temporibus autem, exercitationem officiis blanditiis
+              deleniti ad error corrupti placeat est aliquid at deserunt
+              corporis neque, excepturi asperiores. Error?
+            </p>
+            <h3>Kwaku Bonsu</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+        </div>
+
+        <div class="testimonials-col">
+          <img src="image/kwame.jpg" alt="" />
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              debitis, facere aliquid praesentium exercitationem voluptate.
+            </p>
+            <h3>Kwame Frimpong</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          --->
+
+      /* testimonials */
+.testimonials{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.testimonials-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+.testimonials-col img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.testimonials-col p{
+    padding: 0;
+}
+.testimonials-col h3{
+    text-align: left;
+    margin-top: 15px;
+}
+.testimonials-col .fa{
+  color: #f44336;  
+}
+
+.Tutors{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2000px;
+}
+.Tutors::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+p{
+    color: #777;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    margin-left: -8px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the table */
+  }
+  
+  /* Styling table headers */
+  th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Styling table cells */
+  td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Add some spacing between rows for a cleaner look */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Make the first column bold */
+  td:first-child {
+    font-weight: bold;
+  }
+  
+  /* Add a hover effect to highlight cells on mouseover */
+  td:hover {
+    background-color: #f5f5f5;
+  }  
+
+&#9989 reference code for tick
+
+<p>
+        We've mastered the art of learning through trial, error, and struggle,
+        so you don't have to!
+      </p>
+      <p>
+        As a result, we have formulated a scientifically proven recipe for an
+        optimal learning environment, where students can thrive and excel beyond
+        their target goals.
+      </p>
+      <p>
+        We are eager to provide the finest possible services, ensuring your
+        experience with us is both enjoyable and highly effective.
+      </p>
+      <p>
+        To achieve this, we proudly present the following distinctive features
+        which we believe separates us from other tuition services:
+      </p>
+
+
+
+<div class="progress">
+        <ul>
+          <li>
+            <a href=""
+              ><b>July 2016</b>: Arrived in UK, from Italy, at age 13, (Year 9) with
+              little to no English Spoken.</a
+            >
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href=""
+              >June 2019: Sat the 11 GCSE examinations, achieving mostly 5's.
+              This outcome was a result of a restricted english vocabulary and a
+              lack of interest in academics.
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href=""
+              >August 2019: With aspirations to pursue a career in Engineering,
+              I intended to choose Maths, Physics, and Engineering as my A-level
+              subjects. Unfortunately, my application for Maths and Physics was
+              denied, as I did not meet the required grades - 6s in Maths and
+              Combined Sciences. As an alternative, I opted for A-levels in
+              Italian and Design Engineering and a BTEC Diploma in Applied
+              Sciences, equivalent to two A-levels.
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href=""
+              >September 2020: After devoting an academic year to studying these
+              subjects, I came to the realization that I was not fulfilling my
+              potential. I became dissatisfied with my chosen subjects, knowing
+              that they would likely present an obstacle in my pursuit of higher
+              education in Engineering. Recognizing the importance of studying
+              Physics to increase my chances of pursuing my desired carrer path,
+              I made a dedicated commitment to independently study A-level
+              Physics in my spare time. As I delved into the subject, my passion
+              for Physics grew exponentially, leading me to shift my goals from
+              pursuing an Engineering degree to aiming for a degree in Physics
+              instead. This change in direction reflected my newfound enthusiasm
+              and determination to fully explore and excel in the field of
+              Physics.
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href=""
+              >October 2020: Despite facing significant opposition due to my
+              lower GCSE grades, I remained determined to pursue A-level Physics
+              and include it in my timetable. However, this path was not without
+              its challenges. To address the concerns surrounding my GCSE Maths
+              grade, I was advised to retake the exam and achieve a 6 or above.
+              Fueled by my determination, I embarked on a rigorous journey of
+              independent study for GCSE Maths, devoting myself entirely to the
+              subject for one month. During this intensive period, I committed
+              to understanding the material thoroughly and honing my
+              mathematical skills to meet the required standard.
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href=""
+              >November 2020: After completing the GCSE Maths resit exam, I
+              discovered that my passion for mathematics had grown even more.
+              Fueled by this newfound enthusiasm, I took the initiative to
+              independently study A-level Maths alongside my other subjects,
+              including Italian, Design Engineering, and the BTEC Diploma in
+              Applied Sciences. Balancing these commitments, I also continued my
+              independent study of A-level Physics.
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href=""
+              >January 2021: On results day, I was thrilled to discover that I
+              had achieved a grade 8. However, my journey to pursue A-level
+              Physics did not end there. I was informed that in order to secure
+              a place, I needed to sit an entrance test in Physics in February
+              2021, and if I could attain a C grade in that test, I would be
+              admitted into the course. However, as Physics A-level typically
+              spans two years, joining the course meant I would have to stay an
+              extra year in education. Initially, I felt hesitant about this
+              extended commitment, but my passion for Physics ultimately
+              overpowered my concerns. I decided to follow my vision and pursue
+              Physics wholeheartedly. Recognizing the level of dedication
+              required, I made a difficult decision to drop from the BTEC
+              Diploma (which consisted of two qualifications) to the BTEC
+              Extended Certificate (a single qualification) to create more time
+              and focus for my Physics studies. My dedication paid off, as I
+              completed the BTEC Extended Certificate program much earlier than
+              intended, finishing in January 2021. This meant that in a
+              remarkable feat, I had effectively completed an equivalent A-level
+              qualification in just five academic months, spanning from
+              September 2020 to January 2021.
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href=""
+              >February 2021: After sitting the Physics test, I performed
+              exceptionally well and achieved a B5, passing with flying colors.
+              As a result, I was granted admission to the 2022 class for A-level
+              Physics. However, my journey didn't end there. Due to my
+              commendable performance in the GCSE Maths resit, I was advised to
+              consider adding A-level Maths to my curriculum. Recognizing the
+              importance of Maths in the field of Physics and heeding the
+              advice, I took on the challenge and was given a conditional offer
+              for A-level Maths, with a requirement to sit the test in March.</a
+            >
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href=""
+              >March 2021: Having covered the AS level maths syllabus at that
+              point in under 4 months, which aligns with the material covered by
+              the 2022 A-level maths class from September to March, I felt
+              well-prepared for the test and passed with outstanding results. My
+              passion for knowledge drove me to pursue Further Maths
+              independetly. I then made a request to include further maths in my
+              curriculum. However, despite my eagerness, I encountered
+              significant opposition, and unfortunately, I was denied entry. The
+              reason cited was that the 2022 class was already significantly
+              ahead in the further maths curriculum. Consequently, I had to
+              temporarily abandon my self-studying efforts in further maths,
+              dbecause the workload from my other subjects demanded my full
+              attention.
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href=""
+              >June 2021: Mrs. Albone came to my aid, persuading the maths
+              department to offer me an opportunity due to recognizing my
+              abilities and acknowledging the advantage it would bring to my
+              Cambridge application to have Further Maths. Consequently, I
+              received the news that I would be required to sit an admissions
+              test in September, which meant I had to dedicate my summer of 2021
+              to revising the entire AS Further Maths content. This intense
+              preparation period was necessary to ensure I could showcase my
+              proficiency for the subject.
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href=""
+              >August 2021: On results day, I was delighted to discover that I
+              had achieved outstanding grades, earning A*s in both Italian and
+              Design Engineering, in addition to a Distinciton in the BTEC
+              Extended Certificate in Applied Sciences.
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href=""
+              >September 2021: Despite not being able to cover the entire
+              Further Maths syllabus during the summer, I took the Further Maths
+              test, feeling uncertain about my preparation. Surprisingly, I
+              managed to pass the test, granting me admission to the Further
+              Maths class. This accomplishment was a testament to my
+              determination and ability to excel even under challenging
+              circumstances. Alongside this, I had already submitted my UCAS
+              application, and I began preparing for the NSAA (Cambridge Natural
+              Sciences Admissions Assessment). However, I must admit that my
+              preparation for the NSAA was not as thorough as I would have
+              liked. Balancing my other A-levels and trying to catch up on the
+              Further Maths content took precedence, leaving limited time and
+              focus for NSAA revision. As a result, my NSAA preparation was
+              somewhat mediocre at best. I didn't allocate enough time for
+              revision, and I couldn't dedicate as much effort as I would have
+              preferred. Nevertheless, I remained determined to give it my best
+              shot, knowing that my overall academic achievements and passion
+              for the subjects could still make a positive impact on my
+              Cambridge application.
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href=""
+              >November 2021: Sat the NSAA and as had my Cambdrige interview.</a
+            >
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href=""
+              >Janurary 2022: After receiving feedback from Cambridge, I learned
+              that I was rejected post-interview. The interview process was
+              divided into two parts, and my performance had varying outcomes.
+              Unfortunately, I struggled during the first part due to the
+              pressure, anxiety, and a lack of preparation in specific Physics
+              topics, including Simple Harmonic Motion, which hadn't been
+              covered in my Physics class yet. On a more positive note, the
+              second part of the interview went quite well for me. The questions
+              were centered around maths, an area where I've always been
+              stronger, and I was able to excel in this aspect of the
+              assessment. However, the feedback also revealed that my
+              performance on the NSAA didn't meet the expected standard, which,
+              combined with the interview results, led to my rejection. It was a
+              disheartening experience, and I felt quite gutted and disappointed
+              in myself. Despite the emotional challenges, I found the strength
+              to push through this setback.
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href=""
+              >Following the setback and the lack of motivation it brought, my
+              performance in the final mock exams was impacted. I managed to
+              achieve A*BB grades in Maths, Physics, and Further Maths. However,
+              I was still struggling to catch up in Further Maths, which
+              reflected in my grades. Given my grades and the advice of my
+              teachers, they suggested that I put Durham as my firm choice in
+              UCAS. The reasoning was that I needed to improve my Physics grade
+              to an A to meet Durham's requirements, which seemed more
+              achievable. On the other hand, they deemed Imperial to be more
+              risky due to the significant improvement required. To meet
+              Imperial's requirements, I needed to achieve an A* in Physics and
+              an A in Further Maths. Despite their suggestion, I decided to go
+              against the grain and made Imperial my firm choice. I had the
+              belief in my abilities and was determined to achieve those grades.
+              Although my teachers warned that nobody in our school had achieved
+              an A* in A-Level Physics since 2011, I remained confident in my
+              potential and was not willing to settle for less.</a
+            >
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href=""
+              >April & May 2022: During the phase of lacking motivation, my
+              teachers played a pivotal role in supporting and encouraging me.
+              With their guidance, I found the strength to overcome the hurdles
+              and started studying with greater determination than ever
+              before.</a
+            >
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href=""
+              >June 2022: I sat my final three A-level exams, and during the
+              Physics exams, I experienced high levels of anxiety and sleep
+              deprivation. The pressure was intense as my admission to Imperial
+              hinged on achieving an A* in Physics.</a
+            >
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href=""
+              >August 2022: On results day, I received my A-level results, which
+              showed that I had achieved AAA grades in Maths, Physics, and
+              Further Maths. While I was thrilled with my exceptional
+              performance in Maths and Further Maths, I felt disappointed that I
+              hadn't achieved the A in Physics that I had hoped for. I was aware
+              that no one in our class had managed to secure the A* in Physics,
+              making the outcome even more disheartening. However, despite not
+              attaining the A* grade, I received the fantastic news that I had
+              been accepted at Imperial College. I couldn't help but feel
+              incredibly grateful for this opportunity, knowing how competitive
+              and challenging the admission process can be.
+            </a>
+          </li>
+        </ul>
+      </div>

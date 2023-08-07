@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SYTuition</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a27fceb75a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10.0.4/swiper-bundle.min.css"
+    />
+
+    <!-- boxicons css -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="headerabout1">
+      <header>
+        <div class="logo">
+          <img src="image/SYTFULL.png" alt="" />
+        </div>
+        <input type="checkbox" id="nav_check" hidden />
+        <nav>
+          <div class="logo">
+            <img src="image/SYTFULL.png" alt="" />
+          </div>
+          <ul>
+            <li><a href="index2.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="">Tutors</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="">Bookings</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+        </nav>
+        <label for="nav_check" class="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </label>
+      </header>
+      <div class="touch">
+        <h1>Contact us for all enquiries!</h1>
+        <!-- <p>
+          Please fill out the following enquiry form, or alternatively, <br />
+          contact us through the following:
+        </p> -->
+      </div>
+      <div class="contactdetails">
+        <div class="social-icons1">
+          <ul>
+            <li>
+              <a
+                href="https://www.google.com/maps/place/London/@51.5285262,-0.2664033,11z/data=!3m1!4b1!4m6!3m5!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862!16zL20vMDRqcGw?entry=ttu"
+              >
+                <span class="icon"
+                  ><span class="fas fa-map-marker-alt"></span></span
+              ></a>
+              <span class="text"
+                ><h2>Location</h2>
+                <p>London & Milton Keynes.</p></span
+              >
+            </li>
+            <li>
+              <a href="mailto:mensah1stephen@gmail.com">
+                <span class="icon"
+                  ><span class="fa-regular fa-envelope"></span></span
+              ></a>
+              <span class="text"
+                ><h2>Send us an E-mail</h2>
+                <p>mensah1stephen@gmail.com</p></span
+              >
+            </li>
+            <li>
+              <a href="tel:07549825440">
+                <span class="icon"><span class="fa-solid fa-phone"></span></span
+              ></a>
+              <span class="text"
+                ><h2>Call us</h2>
+                <p>07549 825440</p></span
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="progression2">
+          <a href="#scrollToSection" onclick="scrollToForm()">
+            Fill Enquiry Form Below!
+            <i class="fa-solid fa-arrow-down"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <section class="enquiry">
+      <div id="scrollToSection">
+        <div class="headercontact">
+          <!-- <form action="send-email.php" method="POST" id="enquiryForm"> -->
+          <!-- <form
+            action="https://formsubmit.co/eb1f91826be9bcf4056d563bb61e6be6"
+            method="POST"
+          > -->
+          <form action="send-email.php" method="POST">
+            <!-- <script>
+              function showPopup() {
+                alert(
+                  "Thank you for your enquiry! Please contact us at mensah1stephen@gmail.com."
+                );
+              }
+            </script> -->
+            <!-- <script src="script.js"></script> -->
+            <!-- <form action="/send-enquiry" method="post"> -->
+            <!-- <form onsubmit="sendEmail(); reset(); return false;"> -->
+            <h2>Submit an Enquiry Form.</h2>
+            <input type="text" name="name" placeholder="Full Name *" required />
+            <input
+              type="email"
+              name="mail"
+              placeholder="Email Address *"
+              required
+            />
+            <input type="text" name="phone" placeholder="Phone Number" />
+            <select name="QualificationSubject" id="QualificationSubject">
+              <option value="" disabled selected>Qualification</option>
+              <option value="nonverbal">Eleven Plus</option>
+              <option value="nonverbal">
+                Eleven Plus: Verbal Reasoning (VR)
+              </option>
+              <option value="nonverbal">
+                Eleven Plus: Non-Verbal Reasoning (NVR)
+              </option>
+              <option value="nonverbal">Eleven Plus: English</option>
+              <option value="nonverbal">Eleven Plus: Maths</option>
+              <option value="nonverbal">UCAT</option>
+              <option value="nonverbal">BMAT</option>
+              <option value="nonverbal">LNAT</option>
+              <option value="nonverbal">KS1 Mathematics</option>
+              <option value="nonverbal">KS2 Mathematics</option>
+              <option value="nonverbal">KS3 Mathematics</option>
+              <option value="nonverbal">
+                KS4 (GCSE or equivalent) Mathematics
+              </option>
+              <option value="nonverbal">
+                KS5 (A-level or equivalent) Mathematics
+              </option>
+              <option value="nonverbal">
+                KS4 (GCSE or equivalent) Further Mathematics
+              </option>
+              <option value="nonverbal">
+                KS5 (A-level or equivalent) Further Mathematics
+              </option>
+              <option value="nonverbal">KS1 Science</option>
+              <option value="nonverbal">KS2 Science</option>
+              <option value="nonverbal">KS3 Combined Science</option>
+              <option value="nonverbal">KS3 Combined Science: Physics</option>
+              <option value="nonverbal">KS3 Combined Science: Chemistry</option>
+              <option value="nonverbal">KS3 Combined Science: Biology</option>
+              <option value="nonverbal">
+                KS4 (GCSE or equivalent) Combined Science
+              </option>
+              <option value="nonverbal">
+                KS4 (GCSE or equivalent) Combined Science: Physics
+              </option>
+              <option value="nonverbal">
+                KS4 (GCSE or equivalent) Combined Science: Chemistry
+              </option>
+              <option value="nonverbal">
+                KS4 (GCSE or equivalent) Combined Science: Biology
+              </option>
+              <option value="nonverbal">
+                KS4 (GCSE or equivalent) Triple Science
+              </option>
+              <option value="nonverbal">
+                KS4 (GCSE or equivalent) Triple Science: Physics
+              </option>
+              <option value="nonverbal">
+                KS4 (GCSE or equivalent) Triple Science: Chemistry
+              </option>
+              <option value="nonverbal">
+                KS4 (GCSE or equivalent) Triple Science: Biology
+              </option>
+              <option value="nonverbal">
+                KS5 (A-level or equivalent) Science
+              </option>
+              <option value="nonverbal">
+                KS5 (A-level or equivalent) Physics
+              </option>
+              <option value="nonverbal">
+                KS5 (A-level or equivalent) Chemistry
+              </option>
+              <option value="nonverbal">
+                KS5 (A-level or equivalent) Biology
+              </option>
+            </select>
+            <!-- <input type="" id="qualification" placeholder="Qualification" /> -->
+            <input
+              type="text"
+              name="Title"
+              placeholder="Enquiry Subject *"
+              required
+            />
+            <input
+              type="hidden"
+              name="_next"
+              value="http://127.0.0.1:5500/thanks.html"
+            />
+            <input type="hidden" name="_captcha" value="true" />
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="Type Your Enquiry Here. *"
+            ></textarea>
+            <!-- <button type="Submit">Submit</button> -->
+            <button type="submit" name="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+      <script src="script.js"></script>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10.0.4/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <footer>
+      <div class="Row">
+        <div class="col">
+          <img src="image/logowhite.png" class="logo" />
+        </div>
+        <div class="col">
+          <h3>
+            Contact Details
+            <div class="underline"><span></span></div>
+          </h3>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text">London & Milton Keynes, UK.</span>
+            </div>
+            <div class="phone">
+              <span class="fas fa-phone-alt"></span>
+              <span class="text">+44 7549 825440</span>
+            </div>
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">sytuition@gmail.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <h3>
+            Links
+            <div class="underline"><span></span></div>
+          </h3>
+          <ul>
+            <li><a href="index2.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="">Tutors</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="">Bookings</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>
+            Follow us!
+            <div class="underline"><span></span></div>
+          </h3>
+          <div class="social-icons">
+            <ul>
+              <li>
+                <i class="fab fa-facebook-f"></i
+                ><span class="text">Facebook</span>
+              </li>
+              <li>
+                <i class="fab fa-instagram"></i
+                ><span class="text">Instagram</span>
+              </li>
+              <li>
+                <i class="fab fa-linkedin"></i
+                ><span class="text">LinkedIn</span>
+              </li>
+              <li>
+                <i class="fab fa-youtube"></i><span class="text">YouTube</span>
+              </li>
+            </ul>
+            <!-- <i class="fab fa-twitter"></i> -->
+            <!--<i class="fab fa-youtube"></i> -->
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">SYTuition © 2023. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
