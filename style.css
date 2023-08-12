@@ -1222,19 +1222,7 @@ div.progress li {
     background: rgba(255, 0, 0, 0.2);
   }
 
-  @media (max-width: 768px) {
-    .social-icons1 {
-      flex-wrap: wrap; /* Allow icons to wrap to the next line */
-      justify-content: space-between; /* Spread icons across the container */
-    }
-    .social-icons1 li {
-      margin-right: 0; /* Remove right margin for all icons */
-      padding-right: 0; /* Remove padding for all icons */
-      margin-bottom: 40px; /* Adjust spacing between icons */
-      width: 100%; /* Make each icon take full width on smaller screens */
-      border-right: none; /* Remove the right border for all icons */
-    }
-  }
+
 
 .alternative p{
     text-align: center;
@@ -1331,4 +1319,146 @@ form button{
     margin: 15px auto 0;
     border-radius: 3px;
     margin-bottom: 30px;
+}
+@media only screen and (max-width: 770px) {
+    .social-icons1 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-top: 70px;
+        padding-bottom: 0;
+    }
+    
+    .social-icons1 ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        flex-direction: column; /* Align items vertically */
+    }
+    
+    .social-icons1 li {
+        display: flex;
+        flex-direction: row; /* Keep this for individual icon layout */
+        align-items: center;
+        margin-bottom: 20px; /* Adjust the spacing between the icon boxes */
+        position: relative; /* Add position relative to the icon container */
+        padding: 40px;
+    }
+    
+    .social-icons1 li:not(:last-child) {
+        border-bottom: 1px solid #ccc; /* Use border-bottom for horizontal lines */
+        padding-bottom: 60px; /* Adjust the spacing between the icon boxes */
+        margin-bottom: 50px; /* Add margin between icons and border lines */
+        border-right: 0;
+    }
+    
+    .social-icons1 .text {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .social-icons1 h2,
+    .social-icons1 p {
+        line-height: 1.2;
+    }
+    
+    .social-icons1 .fas,
+    .social-icons1 .fa-regular,
+    .social-icons1 .fa-solid {
+        width: 70px;
+        height: 70px;
+        border-radius: 20px;
+        font-size: 20px;
+        margin-right: 15px; /* Adjust icon spacing */
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .social-icons1 .fas {
+        color: green;
+        background: rgba(0, 128, 0, 0.2);
+    }
+    
+    .social-icons1 .fa-regular {
+        color: orange;
+        background: rgba(255, 165, 0, 0.2);
+    }
+    
+    .social-icons1 .fa-solid {
+        color: red;
+        background: rgba(255, 0, 0, 0.2);
+    }
+    
+
+}
+.thanks{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 12%;
+}
+.thanks h2{
+    margin-bottom: 7px;
+    font-size: 32px;
+}
+.logo1{
+    width: 42px;
+    margin-top: 40px;
+    align-items: center;
+    margin-left: 48%;
+}
+.progression3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+.progression3 a:hover{
+    border: 1px solid white;
+    transform: translateX(10px);
+}
+.progression3 a{
+    display: inline-block;
+    color: white;
+    background: rgba(76, 0, 130, 0.849);
+    border: 1px solid transparent;
+    padding: 13px 30px;
+    margin-left: 0%;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 0px;
+    /* text-transform: uppercase; */
+    transition: all .55s ease;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+}
+.progression3 a i{
+    margin-right: 8px;
+}
+.copyright1{
+    text-align: center;
+    color: black;
+    margin: 0px auto;
+    font-size: 15px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    font-weight: 500;
+}
+.thanksline{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid black;
+    margin: 0px auto;
+    margin-top: 5px;
+}
+.footer{
+    bottom: 0;
+    margin-top: 14%;
 }
