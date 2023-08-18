@@ -162,12 +162,12 @@ nav ul li a.active{
     display: inline-block;
     color: black;
     background: white;
-    border: 1px solid transparent;
+    border: 2.5px solid white;
     padding: 13px 35px;
     margin-left: 0;
     font-size: 16px;
     font-weight: 600;
-    border-radius: 30px;
+    border-radius: 8px;
     /* text-transform: uppercase; */
     transition: all .55s ease;
     margin-top: 30px;
@@ -177,18 +177,25 @@ nav ul li a.active{
     align-items: center;
 }
 .text-box a:hover{
-    background: transparent;
-    border: 1px solid white;
+    background: indigo;
+    border: 2.5px solid indigo;
     transform: translateX(8px);
+    color: white;
 }
 .text-box a i{
     vertical-align: baseline;
     margin-right: 5px;
 }
 .text-box a.hero-btn{
-    background: transparent;
-    border: 1px solid white;
+    background: indigo;
+    border: 2.5px solid indigo;
+    color: white;
     margin-left: 20px;
+}
+.text-box a.hero-btn:hover{
+    background: white;
+    color: black;
+    border: 2.5px solid black;
 }
 
 /* motivation paragraph to be left of page */
@@ -634,13 +641,15 @@ p{
 .header-sub{
     min-height: 100vh;
     width: 100%;
-    image-rendering: optimizeQuality ;
+    /* image-rendering: optimizeQuality ;
     background-image: url('image/luca1.PNG');
     background-position: center center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     position: relative;
-    filter: grayscale(50%);
+    /* filter: grayscale(50%); */
+    /* background-color: rgba(103, 92, 255, 0.8); */
+    background-color: #E9E9E9;
 }
 /* .header-background{
     
@@ -648,7 +657,7 @@ p{
 .TutorsDescription{
     text-align: left;
     padding-top: 55px;
-    width: 48%;
+    width: 80%;
     margin-bottom: 0px;
     clear: both;
     margin-left: 10%;
@@ -656,10 +665,9 @@ p{
 .TutorsDescription h1{
     margin-bottom: 30px;
     text-align: left;
-    color: white; /* change to black */
+
 }
 .TutorsDescription p{
-    color: white; /* change to black */
     margin-left: -1%;
 }
 
@@ -864,6 +872,7 @@ hr{
 .copyright{
     text-align: center;
     color: #ccc;
+    /* color: #696969; */
     margin: 0px auto;
     font-size: 15px;
 }
@@ -943,8 +952,8 @@ hr{
     margin-left: -8px; /* WHEN ITS 0, IT DOESNT ALIGN */
 }
 .story{
-    padding-top: 55px;
-    padding-bottom: 55px;
+    padding-top: 95px;
+    padding-bottom: 95px;
     align-items: center;
     text-align: center;
     background-color: #F8F8F8F8;
@@ -1028,13 +1037,13 @@ hr{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 .progression{
-    padding-top: 55px;
-    padding-bottom: 55px;
+    padding-top: 95px;
+    padding-bottom: 95px;
     align-items: center;
     text-align: center;
 }
 .progression h1{
-    margin-bottom: 35px;
+    margin-bottom: 55px;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -1069,7 +1078,7 @@ hr{
     border-radius: 100px;
     /* text-transform: uppercase; */
     transition: all .55s ease;
-    margin-top: 25px;
+    margin-top: 45px;
     text-decoration: none;
     position: relative;
     cursor: pointer;
@@ -1144,7 +1153,9 @@ div.progress li {
     text-align: center;
     font-size: 55px;
 }
-
+.buttonss{
+    margin: 0;
+}
 .contactdetails .icon .fas.fa-map-marker-alt, .contactdetails .icon .fa-regular.fa-envelope, .contactdetails .icon .fa-solid.fa-phone  {
     font-size: 27px;
 }
@@ -1152,8 +1163,7 @@ div.progress li {
     margin-top: 65px;
     align-items: center;
     background: #fefefe;
-    width: 100%;
-    height: 60vh;
+    padding-bottom: 6%;
 }
   
   .social-icons1 {
@@ -1256,16 +1266,20 @@ div.progress li {
     border-radius: 20px;
     /* text-transform: uppercase; */
     transition: all .55s ease;
-    margin-top: 25px;
+    margin-top: 15px;
     text-decoration: none;
     position: relative;
     cursor: pointer;
     align-items: center;
     margin-bottom: 0;
 }
+
 html {
     scroll-behavior: smooth;
-  }
+}
+.enquiry {
+    margin-top: 20px;
+}
 .headercontact{
     display: flex;
     height: 100%;
@@ -1320,77 +1334,79 @@ form button{
     border-radius: 3px;
     margin-bottom: 30px;
 }
-@media only screen and (max-width: 770px) {
-    .social-icons1 {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        padding-top: 70px;
-        padding-bottom: 0;
-    }
+@media only screen and (max-width: 935px) {
+    .headercontact {
+    padding: 0 4vw; /* Adjust padding for the form container */
+  }
+    .contactdetails {
+        padding-bottom: 50px; /* Adjust the bottom padding for spacing */
+        min-height: auto; /* Allow content to determine height */
+        padding-top: 40px;
+      }
+      
+      .social-icons1 {
+        padding-top: 20px; /* Adjust the top padding for spacing */
+        margin-bottom: 20px; /* Add margin at the bottom */
+      }
     
-    .social-icons1 ul {
+      
+      .social-icons1 ul {
         list-style: none;
         padding: 0;
         margin: 0;
-        flex-direction: column; /* Align items vertically */
-    }
-    
-    .social-icons1 li {
-        display: flex;
-        flex-direction: row; /* Keep this for individual icon layout */
         align-items: center;
-        margin-bottom: 20px; /* Adjust the spacing between the icon boxes */
-        position: relative; /* Add position relative to the icon container */
-        padding: 40px;
-    }
-    
-    .social-icons1 li:not(:last-child) {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .social-icons1 li {
+        display: flex;
+        flex-direction: column; /* Stack content vertically */
+        align-items: center; /* Center items horizontally */
+        margin: 10px 0; /* Adjust margin for spacing */
+        padding: 20px 0; /* Adjust padding for spacing */
+      }
+      .social-icons1 li:not(:last-child) {
         border-bottom: 1px solid #ccc; /* Use border-bottom for horizontal lines */
         padding-bottom: 60px; /* Adjust the spacing between the icon boxes */
         margin-bottom: 50px; /* Add margin between icons and border lines */
+        padding-left: 0;
+        padding-right: 0;
         border-right: 0;
     }
-    
-    .social-icons1 .text {
+    .social-icons1 li:last-child {
+        margin-bottom: 0; /* Remove margin from the last child */
+      }
+      .social-icons1 .text {
         text-align: center;
         margin-top: 20px;
-    }
-    
-    .social-icons1 h2,
-    .social-icons1 p {
+      }
+      
+      .social-icons1 h2, .social-icons1 p {
         line-height: 1.2;
-    }
-    
-    .social-icons1 .fas,
-    .social-icons1 .fa-regular,
-    .social-icons1 .fa-solid {
+      }
+      
+      .social-icons1 .fas,
+      .social-icons1 .fa-regular,
+      .social-icons1 .fa-solid {
         width: 70px;
         height: 70px;
         border-radius: 20px;
         font-size: 20px;
-        margin-right: 15px; /* Adjust icon spacing */
+        margin-bottom: 15px;
         cursor: pointer;
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-    
-    .social-icons1 .fas {
-        color: green;
-        background: rgba(0, 128, 0, 0.2);
-    }
-    
-    .social-icons1 .fa-regular {
-        color: orange;
-        background: rgba(255, 165, 0, 0.2);
-    }
-    
-    .social-icons1 .fa-solid {
-        color: red;
-        background: rgba(255, 0, 0, 0.2);
-    }
-    
+      }
+      form {
+        padding: 2vw; /* Adjust padding for the form content */
+      }
+      .enquiry {
+        padding-right: 50px;
+        background: #f5f5f5;
+      }
 
 }
 .thanks{
