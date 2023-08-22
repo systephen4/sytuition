@@ -283,7 +283,7 @@ nav ul li a.active{
         margin-bottom: 15px;
     }
     .text-box p{
-        font-size: 12px;
+        font-size: 15px;
         margin-top: 0;
         padding: 7px;
     }
@@ -293,75 +293,29 @@ nav ul li a.active{
         font-size: 22px;
     }
     .text-box p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-height: 706px) {
+    .text-box p{
         font-size: 12px;
     }
 }
-@media only screen and (max-height: 900) {
-    
-}
-/* @media only screen and (max-width: 550px) {
+@media only screen and (max-height: 900px) {
     .text-box{
-        max-width: 80%;
-        margin-top: 70px;
-        margin-left: 10%;
+        margin-top: 55px;
     }
     .text-box h1{
-        font-size: 24px;
+        margin-bottom: 35px;
     }
     .text-box p{
-        font-size: 14px;
+        font-size: 18px;
     }
     .text-box a{
-        align-items: center;
-        margin-top: 60px;
+        margin-top: 40px;
     }
-    .text-box a.hero-btn{
-        align-items: center;
-        margin-top: 25px;
-        margin-left: 20px;
-    }
-    .text-box a, .text-box a.hero-btn {
-        padding: 13px 35px; 
-        font-size: 14px; 
-    }
-     .motivation {
-        flex-direction: column;
-        align-items: center;
-        display: block;
-        width: 80%;
-        margin-left: 10%;
-    }
-    .motivation h1{
-        font-size: 24px;
-    }
-    .video {
-        margin-bottom: 20px; 
-    }
-    .mot{
-        width: 80%;
-    }
-    .mot p {
-        margin-top: 20px; 
-    }
-    .motivation h1 {
-        margin-left: 10%;
-        width: 80%;
-    }
+}
 
-    .video {
-        margin-top: 20px; 
-        float: none; 
-        width: 80%; 
-        margin-left: 10%; 
-    }
-
-    .mot p {
-        margin-left: 10%;
-        width: 80%;
-    }
-} */
-
-/* motivation paragraph to be left of page */
 
 /* motivation */
 .motivation{
@@ -378,7 +332,7 @@ nav ul li a.active{
     width: 80%;
 }
 .mot{
-    margin-left: 10%;
+    margin-left: 7%;
     width: 40%;
     margin-top: 40px;
     float: left;
@@ -416,15 +370,75 @@ nav ul li a.active{
 }
 .video{
     float: right;
-    width: 35%;
-    height: 45vh;
+    width: 550px;
+    height: 310px;
     background-color: black;
     margin-top: 80px;
     margin-bottom: 30px;
-    margin-left: 3%;
+    margin-left: 7%;
 }
 
-
+@media only screen and (max-width: 1262px) {
+    .motivation {
+        align-items: center;
+        flex-direction: column;
+    }
+    .video{
+        width: 80%;
+        height: 55vh;
+    }
+    .mot {
+        width: 80%;
+        text-align: center;
+    }
+    .mot a{
+        float: left;
+    }
+}
+@media only screen and (max-width: 1216px) {
+    .motivation h1{
+        font-size: 45px;
+    }
+}
+@media only screen and (max-width: 1093px) {
+    .motivation h1{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 695px) {
+    .motivation h1{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .video{
+        width: 80%;
+        margin-top: 40px;
+        margin-left: 10%;
+        height: 325px;
+        margin-bottom: 0;
+    }
+    .mot p{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .motivation h1{
+        font-size: 22px;
+    }
+    .mot p{
+        font-size: 14px;
+    }
+    .video{
+        width: 80%;
+        height: 225px;
+        margin-bottom: 0;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .mot a{
+        font-size: 14px;
+    }
+}
 .offer{
     clear: both;
     background-color: #F8F8F8F8;
@@ -440,10 +454,11 @@ nav ul li a.active{
     width: 82%;
     padding-left: 0;
 }
+
 .offertext{
-    margin-top: 50px;
-    margin-left: 10%;
-    width: 45%;
+    margin-top: 55px;
+    margin-left: 8%;
+    width: 42%;
 }
 .offer h3{
     padding-bottom: 25px;
@@ -474,13 +489,104 @@ nav ul li a.active{
     cursor: pointer;
     align-items: center;
 }
-
+@media only screen and (max-width: 1390px) {
+    .offer h1{
+        font-size: 45px;
+    }
+}
+@media only screen and (max-width: 1250px) {
+    .offer h1{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 1290px) {
+    .offer h3{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 1241px) {
+    .offer h1{
+        font-size: 35px;
+        width: 80%;
+    }
+    .offertext{
+        margin-top: 55px;
+        margin-left: 6%;
+        width: 42%;
+    }
+}
+@media only screen and (max-width: 1126px) {
+    .offertext{
+        margin-left: 4%;
+        width: 42%;
+    }
+    .offer h3{
+        padding-bottom: 5px;
+    }
+}
+@media only screen and (max-width: 1126px) {
+    .offer h3{
+        padding-bottom: 5px;
+    }
+}
+@media only screen and (max-width: 997px) {
+    .offer h1{
+        font-size: 30px;
+    }
+    .offer p{
+        padding: 6px;
+        padding-left: 0;
+    } 
+}
+@media only screen and (max-width: 988px) {
+    .table-container {
+        width: 70%;
+      }
+      .offer {
+        flex-direction: column;
+        align-items: center;
+        text-align: left; /* Center align text within .offertext */
+    }
+    .offertext{
+        margin-top: 0;
+        margin-left: 12.5%;
+        width: 75%;
+    }
+    .offer a{
+        margin-bottom: 65px;
+    }
+}
+@media only screen and (max-width: 530px) {
+    .table-container {
+        width: 80%;
+    }
+    .offer a{
+        font-size: 15px;
+        padding: 13px 25px;
+    }
+}
+@media only screen and (max-width: 493px) {
+    .offer h1{
+        font-size: 26px;
+    }
+}
+@media only screen and (max-width: 470px) {
+    .table-scroll-container {
+        overflow-x: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .table-container {
+        width: auto; /* Make the table width adjust to content */
+        max-width: none; /* Remove the max-width restriction */
+        margin-left: 0;
+    }
+}
 .table-container {
-    margin-top: 40px;
-    margin-bottom: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     max-width: 1500px; 
-    margin-left: auto;
-    margin-right: 12%;
+    margin-left: 10%;
   }
   
   .table-wrapper {
@@ -534,46 +640,9 @@ nav ul li a.active{
 
   
   /* Media query for responsiveness */
-  @media only screen and (max-width: 768px) {
+  /* @media only screen and (max-width: 768px) {
     .table-container {
       width: 90%;
-    }
-  }
-
-  /* table {
-    width: 70%;
-    border-collapse: collapse;
-    text-align: center;
-    margin-left: 15%;
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-td i{
-    padding-left: 9px;
-}
-
-th, td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  th {
-    background-color: #f2f2f2;
-    font-weight: bold;
-  }
-  
-  tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  
-  @media (max-width: 600px) {
-    table {
-      font-size: 14px;
-    }
-    
-    th, td {
-      padding: 8px;
     }
   } */
 
