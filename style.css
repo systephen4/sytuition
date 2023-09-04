@@ -32,7 +32,7 @@ img {
 .header{
     min-height: 100vh;
     width: 100%;
-    background: #675cff;
+    background-color: rgba(103, 92, 255, 0.8);
     image-rendering: optimizeQuality ;
     background-position: center;
     background-size: cover;
@@ -147,14 +147,10 @@ nav ul li a.active{
 .text-box{
     max-width: 50%;
     color: black;
-    margin-top: 7% auto;
     margin-left: 10%;
-    margin-top: 55px;
-    /* margin-top: 4%; */
 }
 .text-box h1{
     font-size: 52px;
-    margin-bottom: 25px;
     margin-left: 0;
     text-align: left;
 }
@@ -162,6 +158,7 @@ nav ul li a.active{
     color: black;
     font-size: 20px;
     margin-left: -8px; /* WHEN ITS 0, IT DOESNT ALIGN */
+    padding: 1.5vh;
 }
 .text-box a{
     display: inline-block;
@@ -175,7 +172,7 @@ nav ul li a.active{
     border-radius: 8px;
     /* text-transform: uppercase; */
     transition: all .55s ease;
-    margin-top: 30px;
+    margin-top: 5vh;
     text-decoration: none;
     cursor: pointer;
     align-items: center;
@@ -200,117 +197,6 @@ nav ul li a.active{
     background: white;
     color: black;
     border: 2.5px solid black;
-}
-@media only screen and (max-width: 1384px) {
-    .text-box{
-        max-width: 60%;
-    }
-}
-@media only screen and (max-width: 1156px) {
-    .text-box{
-        max-width: 80%;
-    }
-}
-@media only screen and (max-width: 868px) {
-    .text-box{
-        max-width: 80%;
-    }
-    .text-box h1{
-        font-size: 40px;
-    }
-    .text-box p{
-        font-size: 16px;
-    }
-}
-@media only screen and (max-width: 675px) {
-    .text-box{
-        max-width: 80%;
-    }
-    .text-box h1{
-        font-size: 32px;
-    }
-    .text-box p{
-        font-size: 14px;
-    }
-}
-@media only screen and (max-width: 662px){
-    .text-box a,
-    .text-box a.hero-btn {
-    display: block; /* Change from inline-block to block to stack them */
-    margin: 0 auto; /* Center horizontally */
-    text-align: center; /* Center text inside the buttons */
-    width: 70%; /* Adjust the width as needed */
-    max-width: 300px; /* Add a maximum width for responsiveness */
-    margin-top: 25px; /* Adjust spacing between buttons */
-    }
-    .text-box{
-        max-width: 80%;
-    }
-
-    .text-box a.hero-btn {
-    margin-top: 20px; /* Adjust spacing between buttons */
-    }
-}
-@media only screen and (max-width: 532px){
-    .text-box{
-        max-width: 80%;
-    }
-    .text-box h1{
-        font-size: 26px;
-    }
-    .text-box p{
-        font-size: 14px;
-    }
-    .text-box a,
-    .text-box a.hero-btn {
-    padding: 8px 28px;
-    font-size: 14px;
-    }
-}
-@media only screen and (max-width: 504px){
-    .text-box{
-        max-width: 80%;
-    }
-    .text-box a,
-    .text-box a.hero-btn {
-    width: 100%; /* Adjust the width as needed */
-    }
-}
-@media only screen and (max-width: 438px){
-    .text-box{
-        max-width: 80%;
-        margin-top: 40px;
-    }
-    .text-box h1{
-        font-size: 23px;
-        margin-bottom: 15px;
-    }
-    .text-box p{
-        font-size: 15px;
-        margin-top: 0;
-        padding: 7px;
-    }
-}
-
-@media only screen and (max-height: 706px) {
-    .text-box p{
-        font-size: 12px;
-    }
-
-}
-@media only screen and (max-height: 900px) {
-    .text-box{
-        margin-top: 55px;
-    }
-    .text-box h1{
-        margin-bottom: 35px;
-    }
-    .text-box p{
-        font-size: 18px;
-    }
-    .text-box a{
-        margin-top: 40px;
-    }
 }
 
 
@@ -375,70 +261,6 @@ nav ul li a.active{
     margin-left: 7%;
 }
 
-@media only screen and (max-width: 1200px) {
-    .motivation {
-        flex-direction: column;
-    }
-    .video{
-        width: 70%;
-        height: 50vh;
-        margin-left: 15%;
-        margin-top: 40px;
-    }
-    .mot {
-        width: 70%;
-        text-align: center;
-        margin-left: 15%;
-        margin-top: 15px;
-    }
-    .mot a{
-        float: left;
-    }
-}
-@media only screen and (max-width: 1216px) {
-    .motivation h1{
-        font-size: 45px;
-    }
-}
-@media only screen and (max-width: 1093px) {
-    .motivation h1{
-        font-size: 40px;
-    }
-}
-@media only screen and (max-width: 695px) {
-    .motivation h1{
-        font-size: 30px;
-        margin-bottom: 0;
-    }
-    .video{
-        width: 80%;
-        margin-top: 40px;
-        margin-left: 10%;
-        height: 325px;
-        margin-bottom: 0;
-    }
-    .mot p{
-        font-size: 16px;
-    }
-}
-@media only screen and (max-width: 500px) {
-    .motivation h1{
-        font-size: 22px;
-    }
-    .mot p{
-        font-size: 14px;
-    }
-    .video{
-        width: 80%;
-        height: 225px;
-        margin-bottom: 0;
-    }
-}
-@media only screen and (max-width: 390px) {
-    .mot a{
-        font-size: 14px;
-    }
-}
 .offer{
     clear: both;
     background-color: #F8F8F8F8;
@@ -489,87 +311,7 @@ nav ul li a.active{
     cursor: pointer;
     align-items: center;
 }
-@media only screen and (max-width: 1390px) {
-    .offer h1{
-        font-size: 45px;
-    }
-}
-@media only screen and (max-width: 1250px) {
-    .offer h1{
-        font-size: 40px;
-    }
-}
-@media only screen and (max-width: 1290px) {
-    .offer h3{
-        font-size: 18px;
-    }
-}
-@media only screen and (max-width: 1241px) {
-    .offer h1{
-        font-size: 35px;
-        width: 80%;
-    }
-    .offertext{
-        margin-top: 55px;
-        margin-left: 6%;
-        width: 42%;
-    }
-}
-@media only screen and (max-width: 1126px) {
-    .offertext{
-        margin-left: 4%;
-        width: 42%;
-    }
-    .offer h3{
-        padding-bottom: 5px;
-    }
-}
-@media only screen and (max-width: 1126px) {
-    .offer h3{
-        padding-bottom: 5px;
-    }
-}
-@media only screen and (max-width: 997px) {
-    .offer h1{
-        font-size: 30px;
-    }
-    .offer p{
-        padding: 6px;
-        padding-left: 0;
-    } 
-}
-@media only screen and (max-width: 988px) {
-    .table-container {
-        width: 70%;
-      }
-      .offer {
-        flex-direction: column;
-        align-items: center;
-        text-align: left; /* Center align text within .offertext */
-    }
-    .offertext{
-        margin-top: 0;
-        margin-left: 12.5%;
-        width: 75%;
-    }
-    .offer a{
-        margin-bottom: 65px;
-    }
-}
-@media only screen and (max-width: 530px) {
-    .table-container {
-        width: 80%;
-    }
-    .offer a{
-        font-size: 15px;
-        padding: 13px 25px;
-    }
-}
-@media only screen and (max-width: 493px) {
-    .offer h1{
-        font-size: 26px;
-    }
-}
+
 /* . */
 .table-container {
     margin-top: 60px;
@@ -671,7 +413,7 @@ nav ul li a.active{
 .list-box {
     display: flex; /* Set the display property to flex */
     justify-content: center; /* Align the lists horizontally with space between them */
-    gap: 20px; 
+    gap: 80px; 
     position: relative;
 }
   
@@ -752,6 +494,7 @@ p{
     padding: 50px 0;
     overflow: hidden;
     clear: both;
+    
 }
 .testimonial .image{
     height: 170px;
@@ -837,7 +580,6 @@ p{
 }
 
 .container{
-    height: 75vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -869,114 +611,234 @@ p{
     position: relative;
     /* filter: grayscale(50%); */
     /* background-color: rgba(103, 92, 255, 0.8); */
-    background-color: #E9E9E9;
+    /* background-color: #E9E9E9;
+    background: #675cff; */
+    background-color: rgba(103, 92, 255, 0.75);
 }
 
-.TutorsDescription{
+.TutorsDescription {
     text-align: left;
-    padding-top: 55px;
-    width: 50%;
-    margin-bottom: 0px;
+    padding-top: 4%;
+    width: 80%;
+    margin-bottom: 0;
     clear: both;
     margin-left: 10%;
 }
-.TutorsDescription h1{
-    margin-bottom: 30px;
-    text-align: left;
 
-}
-.TutorsDescription p{
-    margin-left: -1%;
+.TutorsDescription h1 {
+    margin-bottom: 2%;
+    text-align: center;
 }
 
+.luca {
+    margin-top: 0;
+    width: 100%;
+    clear: both;
+    float: left;
+    /* border: 1px solid #ccc; */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 3%;
+    filter: brightness(90%);
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.TutorsDescription p {
+    padding-left: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    clear: both;
+    font-size: 18px;
+    line-height: 1.3;
+}
+.TutorsDescription1 p {
+    padding-left: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    clear: both;
+    font-size: 18px;
+    line-height: 1.3;
+    padding-top: 0;
+}
+.discuss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    margin-top: 0.8%;
+  }
+.discuss a{
+    display: inline-block;
+    color: black;
+    background: white;
+    border: 2.5px solid white;
+    padding: 13px 35px;
+    margin-left: 0;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all .55s ease;
+    margin-top: 1vh;
+    text-decoration: none;
+    cursor: pointer;
+    align-items: center;
+}
+.discuss a i{
+    vertical-align: baseline;
+    margin-right: 5px;
+}
+.discuss a.hero-btn{
+    background: indigo;
+    border: 2.5px solid indigo;
+    color: white;
+    margin-left: 20px;
+}
+.discuss a.hero-btn1{
+    background: black;
+    border: 2.5px solid indigo;
+    color: white;
+    margin-left: 20px;
+}
+.discuss a.hero-btn:hover{
+    background: white;
+    color: black;
+    border: 2.5px solid black;
+}
+.discuss a.hero-btn1:hover{
+    background: white;
+    color: black;
+    border: 2.5px solid black;
+}
+
+.qualscontainer {
+    margin: 0 auto;
+    padding-left: 0;
+    margin-top: 0;
+    clear: both;
+    text-align: center;
+    width: 95%;
+}
+
+.qualification-box {
+    background-color: white;
+    width: 20%;
+    height: 190px;
+    margin: 30px 10px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+}
+
+.qualification-label {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-skip-ink: none; /* Prevent the underline from skipping above and below text */
+    text-underline-offset: 0.15em;
+}
+
+.find-out-more-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.find-out-more-button:hover {
+    background-color: #0056b3;
+}
 /* sections */
 
 
 .sections{
     width: 80%;
     position: relative;
-    padding-top: 220px;
-    padding-bottom: 2200px;
+    padding-top: 4%;
+    padding-bottom: 3%;
     margin-left: 10%;
-    transform: translateY(-40px);
     clear: both;
 }
-.sections h2{
+.EE, .sat{
+    margin-bottom: 6%;
+    position: relative;
+}
+.EE h2, .sat h2{
     font-size: 27px;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 3%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none; /* Prevent the underline from skipping above and below text */
+    text-underline-offset: 0.15em;
 }
-.sections p{
+.EE p, .sat p{
     color: #777;
     font-size: 18px;
     font-weight: 300;
-    line-height: 25px; /*  space between lines */
-    padding: 10px;
+    line-height: 1.4;
+    padding-left: 0;
 }
-.section-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80vh;
-    background-color: #f5f5f5;
-    z-index: -1;
+.sat {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 4%;
+    border-bottom: 1.2px solid black;
 }
-.quals1 {
-    width: 45%;
-    float: left;
-    position: relative;
-    text-align: center;
-  }
-  
-  .quals2 {
-    width: 45%;
-    float: right;
-    text-align: center;
-    clear: both;
-    padding-top: 50px;
-  }
-  
-  .quals3 {
-    width: 45%;
-    float: left;
-    text-align: center;
-    clear: both;
-    padding-top: 50px;
-  }
-  
-  .quals4 {
-    width: 45%;
-    float: right;
-    text-align: center;
-    clear: both;
-    padding-top: 50px;
-  }
-.quals-image1 {
-    width: 530px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-    position: absolute;
-    right: -120%;
-    top: 0;
-    z-index: 1;
-    border-radius: 50px;
-  }
-.quals-image2 {
-    width: 300px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-    position: absolute;
-    right: 20%;
-     /* Lower z-index for image 2 */
-  }
-.course-col{
-    flex-basis: 22%;
-    background: lightblue;
+
+.text {
+    width: 45%; 
+}
+
+.imag {
+    width: 50%; 
+    text-align: right;
+    margin-left: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+.satt {
+    margin-top: auto; 
     border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 25px 25px;
-    box-sizing: border-box;
-    transition: 0.5s;
 }
+.book{
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 10%;
+}
+.book a{
+    display: inline-block;
+    color: black;
+    background: white;
+    border: 2.5px solid white;
+    padding: 10px 40px;
+    margin-left: 0;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 0;
+    /* text-transform: uppercase; */
+    transition: all .55s ease;
+    margin-top: 3vh;
+    text-decoration: none;
+    cursor: pointer;
+}
+.book a.hero-btn2{
+    background: black;
+    border: 2.5px solid black;
+    color: white;
+    margin-left: 0;
+}
+
 .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
@@ -986,10 +848,12 @@ p{
         flex-direction: column;
     }
 }
-.back-main{
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(image/back.jpg);
-}
 
+.lessons{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #F8F8F8F8;
+}
 
 
 /* footer */
@@ -999,17 +863,15 @@ footer{
    position: relative;
    bottom: 0;
    background: #0c1017;
-   color: #ccc;
+   color: #CCC;
    padding: 40px 0 5px;
    font-size: 15px;
    line-height: 25px;
    clear: both;
 }   
-.col p{
-    color: #8e8f91;
-}
+
 .Row{
-    width: 85%;
+    width: 90%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -1026,25 +888,34 @@ footer{
     margin-bottom: 30px;
     margin-top: 30px;
 }
-.col5{
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
 .col:nth-child(2), .col:nth-child(3) {
     flex-basis: 15%;
-}
-.logo{
-    width: 220px;
-    margin-bottom: 10px;
 }
 .col h3{
     width: fit-content;
     margin-bottom: 40px;
     position: relative;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 750;
     color: #FFFFFF;
 }
+.col p{
+    color: #8e8f91;
+    width: 95%;
+}
+
+.col:nth-child(1){
+    margin-top: 5px;
+}
+.col:nth-child(2), .col:nth-child(3) {
+    flex-basis: 15%;
+}
+
+.logo{
+    width: 220px;
+    margin-bottom: 10px;
+}
+
 .email-id{
     width: fit-content;
     border-bottom: 1px solid #ccc;
@@ -1068,23 +939,31 @@ ul li a{
     border-radius: 50%;
     text-align: center;
     line-height: 31px;
-    font-size: 20px;
+    font-size: 18px;
     color: #000;
-    background: #fff;
+    background: #FFFFFF;
     margin-right: 15px;
     cursor: pointer;
     margin-bottom: 15px;
 }
 .col p{
-    margin: 5px;
-    padding: 0;
+    margin-top: 7px;
     padding-bottom: 0px;
-    font-size: 13px;
+    font-size: 14px;
+    line-height: 2;
+    color: #CCC;
+}
+.col{
+    flex-basis: 20%;
+    padding: 0px;
+    margin: 0 25px;
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 hr{
     width: 90%;
     border: 0;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #FFFFFF;
     margin: 0px auto;
 }
 .copyright{
@@ -1092,7 +971,7 @@ hr{
     color: #ccc;
     /* color: #696969; */
     margin: 0px auto;
-    font-size: 15px;
+    font-size: 14px;
 }
 /* .underline{
     width: 100%;
@@ -1123,7 +1002,7 @@ hr{
         left: 100%;
     }
 }
-@media (max-width: 700px){
+@media (max-width: 990px){
     footer{
         bottom: unset;
     }
@@ -1133,6 +1012,10 @@ hr{
     .col:nth-child(2), .col:nth-child(3) {
         flex-basis: 100%;
     }
+    .col:nth-child(1){
+        margin-top: 0;
+    }
+
 }
 
 
@@ -1142,7 +1025,7 @@ hr{
 .headerabout{
     min-height: 100vh;
     width: 100%;
-    background-color: rgba(103, 92, 255, 0.8);
+    background-color: rgba(103, 92, 255, 0.6);
     image-rendering: optimizeQuality ;
     background-position: center;
     background-size: cover;
@@ -1552,6 +1435,376 @@ form button{
     border-radius: 3px;
     margin-bottom: 30px;
 }
+.thanks{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 12%;
+}
+.thanks h2{
+    margin-bottom: 7px;
+    font-size: 32px;
+}
+.logo1{
+    width: 42px;
+    margin-top: 40px;
+    align-items: center;
+    margin-left: 48%;
+}
+.progression3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+.progression3 a:hover{
+    border: 1px solid white;
+    transform: translateX(10px);
+}
+.progression3 a{
+    display: inline-block;
+    color: white;
+    background: rgba(76, 0, 130, 0.849);
+    border: 1px solid transparent;
+    padding: 13px 30px;
+    margin-left: 0%;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 0px;
+    /* text-transform: uppercase; */
+    transition: all .55s ease;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+}
+.progression3 a i{
+    margin-right: 8px;
+}
+.copyright1{
+    text-align: center;
+    color: black;
+    margin: 0px auto;
+    font-size: 15px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    font-weight: 500;
+}
+.thanksline{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid black;
+    margin: 0px auto;
+    margin-top: 5px;
+}
+.footer{
+    bottom: 0;
+    margin-top: 14%;
+}
+
+
+
+@media (min-width: 1330px) and (min-height: 671px) {
+
+}
+
+@media only screen and (max-width: 702px) {
+    .text-box a,
+    .text-box a.hero-btn {
+    display: block; /* Change from inline-block to block to stack them */
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center text inside the buttons */
+    width: 70%; /* Adjust the width as needed */
+    max-width: 300px; /* Add a maximum width for responsiveness */
+    }
+    .text-box{
+        max-width: 80%;
+    }
+
+    .text-box a.hero-btn {
+    margin-top: 25px; /* Adjust spacing between buttons */
+    }
+}
+/* @media only screen and (max-width: 664px) {
+    .text-box h1{
+        font-size: 30px !important;
+        margin-bottom: 20px !important;
+    }
+    .text-box p{
+        font-size: 18px !important;
+    }
+}
+@media only screen and (max-width: 553px) {
+    .text-box h1{
+        font-size: 25px !important;
+        margin-bottom: 20px !important;
+    }
+    .text-box p{
+        font-size: 16px !important;
+    }
+    .text-box a{
+        font-size: 16px !important;
+        padding: 8px 33px !important;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1384px) {
+    .text-box{
+        max-width: 55%;
+    }
+}
+@media only screen and (max-width: 1256px) {
+    .text-box{
+        max-width: 60%;
+    }
+}
+@media only screen and (max-width: 1156px) {
+    .text-box{
+        max-width: 80%;
+    }
+}
+@media only screen and (max-width: 868px) {
+    .text-box h1{
+        font-size: 45px;
+    }
+    .text-box p{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 748px) {
+    .text-box h1{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 665px) {
+    .text-box h1{
+        font-size: 35px;
+    }
+    .text-box p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 662px){
+    .text-box a.hero-btn {
+    margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 582px) {
+    .text-box h1{
+        font-size: 30px; 
+    }
+    .text-box p{
+        font-size: 13px;
+        padding-top: 0;
+        padding: 9px;
+    }
+}
+@media only screen and (max-width: 532px){
+    .text-box h1{
+        font-size: 25px;
+    }
+    .text-box p{
+        font-size: 12px;
+    }
+    .text-box a,
+    .text-box a.hero-btn {
+    padding: 8px 28px;
+    font-size: 14px;
+    }
+}
+@media only screen and (max-width: 504px){
+    .text-box a,
+    .text-box a.hero-btn {
+    width: 100%; /* Adjust the width as needed */
+    }
+}
+@media only screen and (max-width: 438px){
+    .text-box h1{
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-height: 706px) {
+    .text-box p{
+        font-size: 12px;
+    }
+
+
+
+
+}
+@media only screen and (max-height: 900px) {
+    .text-box{
+        margin-top: 55px;
+    }
+    .text-box h1{
+        margin-bottom: 35px;
+    }
+    .text-box p{
+        font-size: 18px;
+    }
+    .text-box a{
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .motivation {
+        flex-direction: column;
+    }
+    .video{
+        width: 70%;
+        height: 50vh;
+        margin-left: 15%;
+        margin-top: 40px;
+    }
+    .mot {
+        width: 70%;
+        text-align: center;
+        margin-left: 15%;
+        margin-top: 15px;
+    }
+    .mot a{
+        float: left;
+    }
+}
+@media only screen and (max-width: 1216px) {
+    .motivation h1{
+        font-size: 45px;
+    }
+}
+@media only screen and (max-width: 1093px) {
+    .motivation h1{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 695px) {
+    .motivation h1{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .video{
+        width: 80%;
+        margin-top: 40px;
+        margin-left: 10%;
+        height: 325px;
+        margin-bottom: 0;
+    }
+    .mot p{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .motivation h1{
+        font-size: 22px;
+    }
+    .mot p{
+        font-size: 14px;
+    }
+    .video{
+        width: 80%;
+        height: 225px;
+        margin-bottom: 0;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .mot a{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1390px) {
+    .offer h1{
+        font-size: 45px;
+    }
+}
+@media only screen and (max-width: 1250px) {
+    .offer h1{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 1290px) {
+    .offer h3{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 1241px) {
+    .offer h1{
+        font-size: 35px;
+        width: 80%;
+    }
+    .offertext{
+        margin-top: 55px;
+        margin-left: 6%;
+        width: 42%;
+    }
+}
+@media only screen and (max-width: 1126px) {
+    .offertext{
+        margin-left: 4%;
+        width: 42%;
+    }
+    .offer h3{
+        padding-bottom: 5px;
+    }
+}
+@media only screen and (max-width: 1126px) {
+    .offer h3{
+        padding-bottom: 5px;
+    }
+}
+@media only screen and (max-width: 997px) {
+    .offer h1{
+        font-size: 30px;
+    }
+    .offer p{
+        padding: 6px;
+        padding-left: 0;
+    } 
+}
+@media only screen and (max-width: 988px) {
+    .table-container {
+        width: 70%;
+      }
+      .offer {
+        flex-direction: column;
+        align-items: center;
+        text-align: left; /* Center align text within .offertext */
+    }
+    .offertext{
+        margin-top: 0;
+        margin-left: 12.5%;
+        width: 75%;
+    }
+    .offer a{
+        margin-bottom: 65px;
+    }
+}
+@media only screen and (max-width: 530px) {
+    .table-container {
+        width: 80%;
+    }
+    .offer a{
+        font-size: 15px;
+        padding: 13px 25px;
+    }
+}
+@media only screen and (max-width: 493px) {
+    .offer h1{
+        font-size: 26px;
+    }
+}
 @media only screen and (max-width: 935px) {
     .headercontact {
     padding: 0 4vw; /* Adjust padding for the form container */
@@ -1626,484 +1879,4 @@ form button{
         background: #f5f5f5;
       }
 
-}
-.thanks{
-    width: 80%;
-    margin-left: 10%;
-    text-align: center;
-    margin-top: 12%;
-}
-.thanks h2{
-    margin-bottom: 7px;
-    font-size: 32px;
-}
-.logo1{
-    width: 42px;
-    margin-top: 40px;
-    align-items: center;
-    margin-left: 48%;
-}
-.progression3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    padding-bottom: 0;
-    margin-bottom: 0;
-  }
-.progression3 a:hover{
-    border: 1px solid white;
-    transform: translateX(10px);
-}
-.progression3 a{
-    display: inline-block;
-    color: white;
-    background: rgba(76, 0, 130, 0.849);
-    border: 1px solid transparent;
-    padding: 13px 30px;
-    margin-left: 0%;
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 0px;
-    /* text-transform: uppercase; */
-    transition: all .55s ease;
-    text-decoration: none;
-    position: relative;
-    cursor: pointer;
-    align-items: center;
-}
-.progression3 a i{
-    margin-right: 8px;
-}
-.copyright1{
-    text-align: center;
-    color: black;
-    margin: 0px auto;
-    font-size: 15px;
-    bottom: 0;
-    position: absolute;
-    width: 100%;
-    font-weight: 500;
-}
-.thanksline{
-    width: 90%;
-    border: 0;
-    border-bottom: 1px solid black;
-    margin: 0px auto;
-    margin-top: 5px;
-}
-.footer{
-    bottom: 0;
-    margin-top: 14%;
-}
-
-
-
-@media (max-width: 375px) and (max-height: 667px) {
-    /* HOME */
-    .text-box h1{
-        margin-top: -25px;
-    }
-    .text-box h1{
-        font-size: 22px;
-        margin-bottom: 15px;
-    }
-    .text-box p{
-        font-size: 13px;
-    }
-    .text-box a{
-        margin-top: 20px;
-        padding: 8px 0px;
-        font-size: 14px;
-    }
-    
-    .motivation h1{
-        text-align: left;
-        font-size: 22px;
-    }
-    .video{
-        margin-top: 25px;
-        height: 30vh
-    }
-    .mot{
-        width: 80%;
-        margin-left: 10%;
-        font-size: 13px;
-    }
-    .mot p{
-        padding: 8px;
-    }
-    .mot a{
-        font-size: 15px;
-        padding: 13px 33px;
-        align-items: center;
-    }
-    .offer h1{
-        text-align: left;
-        font-size: 24px;
-        margin-left: 5%;
-        width: 90%;
-    }
-    .table-container{
-        margin-top: 40px;
-        width: 78%;
-        margin-left: 0%;
-        margin-bottom: 50px;
-        justify-content: center;
-    }
-    th, td{
-        font-size: 11px;
-    }
-    .offertext{
-        width: 80%;
-        margin-left: 0;
-        margin-top: 0px;
-    }
-    .offertext h3{
-        font-size: 18px;
-        margin-bottom: 10px;
-        text-align: center;
-    }
-    .offertext p{
-        font-size: 14px;
-        padding: 5px;
-        padding-left: 0;
-        text-align: center;
-    }
-    .offertext a{
-        font-size: 15px;
-        width: 80%;
-        margin-left: 10%;
-        display: block;
-        text-align: center;
-        align-items: center;
-    }
-    .us{
-        width: 80%;
-        margin-left: 10%;
-    }
-    .us h1{
-        text-align: center;
-        font-size: 24px;
-    }
-    .us p{
-        text-align: center;
-        margin-left: 0;
-        padding-left: 0;
-        width: 100%;
-        font-size: 14px;
-    }
-    .list-box {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        overflow-x: hidden;
-        margin-top: 30px;
-        margin-left: 5%;
-      }
-    .bullet1,
-    .bullet2 {
-        text-align: center;
-        margin: 0;
-    }
-    .bullet1{
-        margin-top: 0;
-        margin-left: 0;
-    }
-    .bullet2{
-        margin-top: -20px;
-    }
-    .bullet1 ul,
-    .bullet2 ul {
-        margin: 0;
-        padding: 0;
-    }
-    .bullet1 ul li a,
-    .bullet2 ul li a {
-        font-size: 14px;
-        line-height: 1;
-    }
-      
-    .testimonials h1{
-        font-size: 26px;
-    }
-    .slide p{
-        font-size: 14px;
-    }
-    .container{
-        margin-bottom: 80px;
-    }
-    
-    
-    
-    /* ABOUT */
-    .text-box-about{
-        max-width: 80%;
-        margin-left: 10%;
-        padding-bottom: 40px;
-    }
-    .text-box-about h1{
-        font-size: 36px;
-        margin-bottom: 15px;
-    }
-    .text-box-about p{
-        font-size: 14px;
-        padding: 8px;
-    }
-    .progression{
-        margin-top: 0;
-        padding-top: 50px;
-        padding-bottom: 0px;
-    }
-    .progression h1{
-        font-size: 28px;
-        margin-top: 0;
-        margin-bottom: 30px;
-        width: 80%;
-        margin-left: 10%;
-    }
-    .progression h3{
-        font-size: 16px;
-    }
-    .progression p{
-        font-size: 14px;
-        padding-left: 0;
-        padding: 8px;
-    }
-    .progression a{
-        font-size: 15px;
-        padding: 13px 35px;
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
-    .story{
-        padding-top: 40px;
-        padding-bottom: 60px;
-    }
-    .story h1{
-        font-size: 30px;
-    }
-    .story p{
-        font-size: 14px;
-    }
-
-
-
-    /* contact */
-    .touch{
-       width: 80%; 
-       margin-left: 10%;
-    }
-    .touch h1{
-        font-size: 44px;
-    }
-}
-
-
-@media (max-width: 414px) and (max-height: 896px) {
-    /* HOME */
-    .text-box {
-        margin-top: 30px;
-    }
-    .text-box h1{
-        margin-top: 5px;
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-    .text-box p{
-        font-size: 16px;
-        padding: 10px;
-    }
-    .text-box a{
-        margin-top: 30px;
-    }
-    .text-box a, .text-box a.hero-btn{
-        padding: 8px 2px;
-        font-size: 16px;
-    }
-    
-    .motivation h1{
-        text-align: center;
-        font-size: 24px;
-    }
-    .video{
-        margin-top: 35px;
-        height: 25vh
-    }
-    .mot{
-        width: 80%;
-        margin-left: 10%;
-        font-size: 13px;
-        margin-top: 30px;
-    }
-    .mot p{
-        padding: 8px;
-    }
-    .mot a{
-        font-size: 15px;
-        padding: 13px 33px;
-        align-items: center;
-    }
-    .offer h1{
-        text-align: center;
-        font-size: 24px;
-        margin-left: 5%;
-        width: 90%;
-    }
-    .table-container{
-        margin-top: 40px;
-        width: 78%;
-        margin-left: 0%;
-        margin-bottom: 50px;
-        justify-content: center;
-    }
-    th, td{
-        font-size: 11px;
-    }
-    .offertext{
-        width: 80%;
-        margin-left: 0;
-        margin-top: 0px;
-    }
-    .offertext h3{
-        font-size: 18px;
-        margin-bottom: 10px;
-        text-align: center;
-    }
-    .offertext p{
-        font-size: 14px;
-        padding: 5px;
-        padding-left: 0;
-        text-align: center;
-    }
-    .offertext a{
-        font-size: 15px;
-        width: 80%;
-        margin-left: 10%;
-        display: block;
-        text-align: center;
-        align-items: center;
-    }
-    .us{
-        width: 80%;
-        margin-left: 10%;
-    }
-    .us h1{
-        text-align: center;
-        font-size: 24px;
-    }
-    .us p{
-        text-align: center;
-        margin-left: 0;
-        padding-left: 0;
-        width: 100%;
-        font-size: 14px;
-    }
-    .list-box {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        overflow-x: hidden;
-        margin-top: 30px;
-        margin-left: 5%;
-      }
-    .bullet1,
-    .bullet2 {
-        text-align: center;
-        margin: 0;
-    }
-    .bullet1{
-        margin-top: 0;
-        margin-left: 0;
-    }
-    .bullet2{
-        margin-top: -20px;
-    }
-    .bullet1 ul,
-    .bullet2 ul {
-        margin: 0;
-        padding: 0;
-    }
-    .bullet1 ul li a,
-    .bullet2 ul li a {
-        font-size: 14px;
-        line-height: 1;
-    }
-    .testimonials h1{
-        font-size: 26px;
-    }
-    .slide p{
-        font-size: 14px;
-    }
-    .container{
-        margin-bottom: 0;
-    }
-    
-    
-    
-    /* ABOUT */
-    .text-box-about{
-        max-width: 80%;
-        margin-left: 10%;
-        padding-bottom: 40px;
-    }
-    .text-box-about h1{
-        font-size: 36px;
-        margin-bottom: 15px;
-    }
-    .text-box-about p{
-        font-size: 14px;
-        padding: 8px;
-    }
-    .progression{
-        margin-top: 0;
-        padding-top: 50px;
-        padding-bottom: 0px;
-    }
-    .progression h1{
-        font-size: 28px;
-        margin-top: 0;
-        margin-bottom: 30px;
-        width: 80%;
-        margin-left: 10%;
-    }
-    .progression h3{
-        font-size: 16px;
-    }
-    .progression p{
-        font-size: 14px;
-        padding-left: 0;
-        padding: 8px;
-    }
-    .progression a{
-        font-size: 15px;
-        padding: 13px 35px;
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
-    .story{
-        padding-top: 40px;
-        padding-bottom: 60px;
-    }
-    .story h1{
-        font-size: 30px;
-    }
-    .story p{
-        font-size: 14px;
-    }
-
-
-
-    /* contact */
-    .touch{
-       width: 80%;
-       margin-left: 10%;
-    }
-    .touch h1{
-        font-size: 44px;
-    }
 }
