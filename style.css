@@ -603,13 +603,7 @@ p{
 .header-sub{
     min-height: 100vh;
     width: 100%;
-    /* image-rendering: optimizeQuality ;
-    background-image: url('image/luca1.PNG');
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat; */
     position: relative;
-    /* filter: grayscale(50%); */
     /* background-color: rgba(103, 92, 255, 0.8); */
     /* background-color: #E9E9E9;
     background: #675cff; */
@@ -626,7 +620,7 @@ p{
 }
 
 .TutorsDescription h1 {
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     text-align: center;
 }
 
@@ -664,6 +658,55 @@ p{
     line-height: 1.3;
     padding-top: 0;
 }
+
+.qualscontainer {
+    margin: 0 auto;
+    padding-left: 0;
+    margin-top: 0;
+    clear: both;
+    text-align: center;
+    width: 90%;
+}
+
+.qualification-box {
+    background-color: white;
+    width: 20%;
+    height: 30vh;
+    margin: 2% 1%;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+}
+
+.qualification-label {
+    padding: 8%;
+    margin-top: 2%;
+    font-size: 21px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-skip-ink: none; /* Prevent the underline from skipping above and below text */
+    text-underline-offset: 0.15em;
+}
+
+.find-out-more-button {
+    display: inline-block;
+    margin-top: 8%;
+    padding: 8px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.find-out-more-button:hover {
+    background-color: #0056b3;
+}
+
 .discuss {
     display: flex;
     justify-content: center;
@@ -713,66 +756,19 @@ p{
     border: 2.5px solid black;
 }
 
-.qualscontainer {
-    margin: 0 auto;
-    padding-left: 0;
-    margin-top: 0;
-    clear: both;
-    text-align: center;
-    width: 95%;
-}
-
-.qualification-box {
-    background-color: white;
-    width: 20%;
-    height: 190px;
-    margin: 30px 10px;
-    display: inline-block;
-    text-align: center;
-    border: 1px solid #ccc;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-    font-size: 18px;
-}
-
-.qualification-label {
-    padding: 10px;
-    margin-top: 10px;
-    font-size: 21px;
-    font-weight: 700;
-    text-decoration: underline;
-    text-decoration-skip-ink: none; /* Prevent the underline from skipping above and below text */
-    text-underline-offset: 0.15em;
-}
-
-.find-out-more-button {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 8px 15px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: 0.3s;
-    font-size: 16px;
-}
-
-.find-out-more-button:hover {
-    background-color: #0056b3;
-}
 /* sections */
 
 
 .sections{
     width: 80%;
     position: relative;
-    padding-top: 4%;
-    padding-bottom: 3%;
+    padding-top: 5%;
+    padding-bottom: 2%;
     margin-left: 10%;
     clear: both;
 }
 .EE, .sat{
-    margin-bottom: 6%;
+    margin-bottom: 0;
     position: relative;
 }
 .EE h2, .sat h2{
@@ -795,6 +791,9 @@ p{
     align-items: center; 
     margin-bottom: 4%;
     border-bottom: 1.2px solid black;
+}
+.sat:nth-child(4){
+    border-bottom: none;
 }
 
 .text {
@@ -853,6 +852,64 @@ p{
     padding-top: 5%;
     padding-bottom: 5%;
     background-color: #F8F8F8F8;
+}
+.less{
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 2%;
+    text-align: center;
+}
+.less p{
+    font-size: 18px;
+    padding-left: 0;
+}
+.onlinesessions{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.onlinesessions h2, .inpersonsessions h2{
+    margin-left: 5%;
+    font-size: 25px;
+    margin-bottom: 0.3%;
+}
+.pythagoras{
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+    /* border-left: 3px solid #000;
+    border-right: 3px solid #000; */
+    
+}
+.personbullets{
+    margin-left: 20%;
+    width: 60%;
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.inpersonsessions{
+    margin-top: 4%;
+}
+.personbullets ul{
+    list-style-type: none;
+}
+  
+.personbullets ul li {
+    font-size: 16px;
+    line-height: 1.3;
+    padding: 0.2%;
+}
+  
+.personbullets ul li::before {
+    content: '✓';
+    color: green;
+    font-size: 25px;
+    vertical-align: middle;
+    line-height: 1.3;
+}
+
+.personbullets ul li .last-item::before {
+    list-style-type: none;
+    color: red;
 }
 
 
@@ -1298,6 +1355,7 @@ div.progress li {
   .social-icons1 .text {
     text-align: center;
     margin-top: 20px;
+    width: 100%;
   }
   
   .social-icons1 h2, .social-icons1 p {
